@@ -134,7 +134,7 @@ do
 		// By giving errors like time not synced or failed to join.
 		// Everyone at level 16 or above should be able to easily reach their Rank 6 badge without a problem with bosses
 		// So please don't change this and let's get this mini game over with
-		if( $Data[ 'response' ][ 'level' ] >= 0b10000 )
+		if( $Data[ 'response' ][ 'level' ] > 20 )
 		{
 			$RandomizeZone = 1;
 
